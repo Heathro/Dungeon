@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Curved Sword
+  m_EditorClassIdentifier: 
+  itemID: 91c47a1c-61c8-4cce-b8eb-a8f6d756d5be
+  displayName: Curved Sword
+  description: 11 Physical Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: ef02d4a4c92b4d142ae590bca2c18050, type: 3}
+  icon: {fileID: 21300000, guid: bac1c35d1e2230443a661b65c69ea9ca, type: 3}
+  weight: 7.9
+  stackable: 0
+  price: 185
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 7
+  equippedPrefab: {fileID: -7601804713655604923, guid: 33dd63e07b703dc479435cbab827e7c6, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 11
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

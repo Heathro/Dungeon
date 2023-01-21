@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &554542296541005548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1154460319714612215, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_Size.x
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154460319714612215, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154460319714612215, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_Size.z
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154460319714612215, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_Center.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697213737987662748, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_Name
+      value: Small Stone Hammer Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+--- !u!4 &4907288272077100916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4875166289822814616, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+  m_PrefabInstance: {fileID: 554542296541005548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3154155175209365170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4907288272077100916}
+    m_Modifications:
+    - target: {fileID: 166614, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_Name
+      value: SM_Wep_Hammer_Mace_Stone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.043
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49679086
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5063876
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5305265
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4640174
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -84.553
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 142.963
+      objectReference: {fileID: 0}
+    - target: {fileID: 447914, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -53.458
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 64295611567139102, guid: 2105d87117cec60459395ab06ab7794a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2105d87117cec60459395ab06ab7794a, type: 3}

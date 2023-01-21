@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Earth Rune Axe
+  m_EditorClassIdentifier: 
+  itemID: 581228b0-c60d-4ae0-9370-1be2ffa01881
+  displayName: Earth Rune Axe
+  description: '9 Physical Damage
+
+    +10 Earth Resistance'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 4273386661610219230, guid: 47daec0b488c0b64aa6e1c2de692dc48, type: 3}
+  icon: {fileID: 21300000, guid: a2e77cd9eb8068041ab285def41aa903, type: 3}
+  weight: 6.3
+  stackable: 0
+  price: 174
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 14
+    amount: 10
+  percentageModifiers: []
+  weaponType: 10
+  equippedPrefab: {fileID: 8000270148695665610, guid: 08496265e87f32a44b59fa9c110f21a1, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 9
+  damageType: 1
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Earth Gem Axe
+  m_EditorClassIdentifier: 
+  itemID: 38673664-57f7-4a74-a487-927258683647
+  displayName: Earth Axe
+  description: 11 Earth Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 4273386661610219230, guid: 6bb67c59752a6fe47b52cc0c0ebe6c0d, type: 3}
+  icon: {fileID: 21300000, guid: 30af7e305c2fccf4f9323854d372eeed, type: 3}
+  weight: 7.1
+  stackable: 0
+  price: 165
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 10
+  equippedPrefab: {fileID: 8000270148695665610, guid: 073c70d67cadb3f4e92efed23f7a13de, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 11
+  damageType: 5
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 7d0fdf38ee55d5645a91266cfb3eb4c3, type: 3}
+  projectileType: 0

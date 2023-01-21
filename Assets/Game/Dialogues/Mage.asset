@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7621866694367370455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 74f41be6-635c-4e93-93d2-3dd12625071e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I have to kill wizard Unkhar and absord knowledge which will help me returning
+    magic in my country.
+  children:
+  - 326272be-2e0a-4a9b-97d3-1b2176928c8c
+  rect:
+    serializedVersion: 2
+    x: 973
+    y: 173
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-7006175457414984281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: ef14f0ae-1899-4c53-9773-a2cd49248132
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hope your country will get magic back.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1193
+    y: 285
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-4566014582907720440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 326272be-2e0a-4a9b-97d3-1b2176928c8c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: We will help you with that.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1194
+    y: 175
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-4239832498173913469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 087494df-cad0-4184-b0be-70505e5dc4f6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 2d4ca958-f5fc-4c25-a092-52c88e86bea5
+  rect:
+    serializedVersion: 2
+    x: 754
+    y: 292
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Crystal of magic
+        negate: 0
+--- !u!114 &-1699702652732040226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 7996d963-48ef-48ad-bc41-8875e83c4399
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 74f41be6-635c-4e93-93d2-3dd12625071e
+  rect:
+    serializedVersion: 2
+    x: 752
+    y: 173
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Crystal of magic
+        negate: 1
+--- !u!114 &-1387311247218067820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: dcd3bcac-1170-4fcf-9fa6-75857455cd07
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where are you from?
+  children:
+  - 9b96b156-7ebc-4263-b6fe-51c5ffa43bdf
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 98
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-287089836806896865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 2d4ca958-f5fc-4c25-a092-52c88e86bea5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I had to gain knowledge from wizard Unkhar. Now I have this, and soon I wull
+    save magic in my homeland.
+  children:
+  - ef14f0ae-1899-4c53-9773-a2cd49248132
+  rect:
+    serializedVersion: 2
+    x: 974
+    y: 289
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 7609674343535061548}
+  - {fileID: -1387311247218067820}
+  - {fileID: 5478906807374819966}
+  - {fileID: -1699702652732040226}
+  - {fileID: -4239832498173913469}
+  - {fileID: 626772570355258143}
+  - {fileID: -7621866694367370455}
+  - {fileID: -287089836806896865}
+  - {fileID: -7006175457414984281}
+  - {fileID: -4566014582907720440}
+--- !u!114 &626772570355258143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 1098c6a2-99e4-4c64-a96b-1e9223093e50
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Nothing.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 293
+    y: 361
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &5478906807374819966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 9b96b156-7ebc-4263-b6fe-51c5ffa43bdf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I am from a far land called Ophiria. My land loosing the magic.
+  children:
+  - 7996d963-48ef-48ad-bc41-8875e83c4399
+  - 087494df-cad0-4184-b0be-70505e5dc4f6
+  rect:
+    serializedVersion: 2
+    x: 504
+    y: 41
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &7609674343535061548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: b4c0cbaa-2d08-4c9c-a51b-4747453056ae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes?
+  children:
+  - dcd3bcac-1170-4fcf-9fa6-75857455cd07
+  - 7996d963-48ef-48ad-bc41-8875e83c4399
+  - 087494df-cad0-4184-b0be-70505e5dc4f6
+  - 1098c6a2-99e4-4c64-a96b-1e9223093e50
+  rect:
+    serializedVersion: 2
+    x: 19
+    y: 194
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

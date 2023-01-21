@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b43d69866dbd5478d07fd58bdc15fe, type: 3}
+  m_Name: Burning Touch Sound
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 52de0dc97239e4d44bbb35ace2108d36, type: 3}

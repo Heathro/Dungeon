@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb5e19c93fe5964bb8b658d3919276c, type: 3}
+  m_Name: Oiled
+  m_EditorClassIdentifier: 
+  buffID: 69b42f60-05ac-4878-b954-258bf4f4e950
+  icon: {fileID: 21300000, guid: e62a611a399944a4299b86788e33d745, type: 3}
+  title: Oiled
+  description: '-20% Movement
+
+    -15% Fire Resistance'
+  duration: 2
+  damageType: 5
+  isPeriodic: 0
+  skipFirst: 0
+  additiveModifiers:
+  - stat: 12
+    amount: -15
+  percentageModifiers:
+  - stat: 6
+    amount: -20

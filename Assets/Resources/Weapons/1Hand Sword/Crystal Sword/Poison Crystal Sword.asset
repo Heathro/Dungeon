@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Poison Crystal Sword
+  m_EditorClassIdentifier: 
+  itemID: 09f69798-4e94-46f7-ad92-6c9d838d3786
+  displayName: Poison Crystal Damage
+  description: 12 Poison Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 7549044153351190182, guid: b9688480d92e13844a6aa43c3fdfa20f, type: 3}
+  icon: {fileID: 21300000, guid: a57128efc116bdd4dab6468dc30048bf, type: 3}
+  weight: 4.9
+  stackable: 0
+  price: 188
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 14
+  equippedPrefab: {fileID: 8000270148695665610, guid: 079bd1139dc86344280ea1e7cbfbdbc1, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 12
+  damageType: 7
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 079b6d500b54eb743a8fa409bf43b9cf, type: 3}
+  projectileType: 0

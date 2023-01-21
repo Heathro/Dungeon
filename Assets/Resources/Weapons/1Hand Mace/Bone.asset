@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Bone
+  m_EditorClassIdentifier: 
+  itemID: eea5a26c-7cc4-4d26-b629-534dbdcb4004
+  displayName: Bone
+  description: 8 Physical Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 7333731691835712606, guid: 84f610e7ac877334899a72509db2befa, type: 3}
+  icon: {fileID: 21300000, guid: b002e339cc2ff924599da592d5a8112f, type: 3}
+  weight: 4
+  stackable: 0
+  price: 17
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 13
+  equippedPrefab: {fileID: 8000270148695665610, guid: d6d0d334a62012e4e8e2653d349c8fb1, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 8
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

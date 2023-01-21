@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Water Gem Sword
+  m_EditorClassIdentifier: 
+  itemID: cd4cc29d-84f2-437a-9788-64e397f3f284
+  displayName: Water Gem Sword
+  description: '13 Physical Damage
+
+    +12% Water Resistance'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: 8b0a163ad74f59142a73fe5e275d96b7, type: 3}
+  icon: {fileID: 21300000, guid: 6777e2d99b6a2d5479f55bce1d59fead, type: 3}
+  weight: 8.4
+  stackable: 0
+  price: 297
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 13
+    amount: 12
+  percentageModifiers: []
+  weaponType: 7
+  equippedPrefab: {fileID: -7601804713655604923, guid: 3c5267f500ec87140926f2a111dd461c, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 13
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

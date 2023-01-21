@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Finesse Ring
+  m_EditorClassIdentifier: 
+  itemID: 178f12b9-3121-4342-a346-5303f7271049
+  displayName: Finesse Ring
+  description: +2 Finesse
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: c6c0e3d36f21d664e854e6cb3d1ac951, type: 3}
+  icon: {fileID: 21300000, guid: 2ad7a355defcf5e4c8660b914b4c5882, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 40
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 20
+    amount: 2
+  percentageModifiers: []

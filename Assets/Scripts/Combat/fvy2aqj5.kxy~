@@ -1,0 +1,150 @@
+using System;
+using UnityEngine;
+using Core;
+using Movement;
+using Animation;
+
+namespace Combat
+{
+    public class Fighter : MonoBehaviour, IAction
+    {
+        // CONFIG
+
+        [SerializeField] float weaponRange = 2f;
+        [SerializeField] float weaponDamage = 20f;
+        [SerializeField] int attackCost = 2;
+
+        // CACHE
+
+        ActionScheduler actionScheduler;
+        Animator animator;
+        Mover mover;
+        Health target;
+
+        // STATE
+
+        bool shouldAttack = false;
+
+        bool fightMode = false;
+        int actionPoints;
+        Action<int> useActionPoints;
+        Action actionFinished;
+
+        // LIFECYCLE
+
+        void Start()
+        {            
+            actionScheduler = GetComponent<ActionScheduler>();
+            animator = GetComponent<Animator>();
+            mover = GetComponent<Mover>();
+        }
+
+        void Update()
+        {
+            if (!shouldAttack) return;
+            if (target == null && target.IsDead()) return;
+
+            if (fightMode)
+            {
+                FightBehaviour();
+            }
+            else
+            {
+                CivilBehaviour();
+            }
+        }        
+
+        void FightBehaviour()
+        {
+            if (IsTargetInRange())
+            {
+                mover.CancelAction();
+                if (actionPoints >= attackCost && animator.GetBehaviour<Locomotion>().IsRunning())
+                {
+                    useActionPoints(attackCost);
+                    Attack();
+                    actionFinished();
+                }
+            }
+            else
+            {
+                mover.MoveTo(target.transform.position);
+            }
+        }
+        
+        void CivilBehaviour()
+        {
+            if (IsTargetInRange())
+            {
+                mover.CancelAction();
+                Attack();
+            }
+            else
+            {
+                mover.MoveTo(target.transform.position);
+            }
+        }
+
+        // PUBLIC
+
+        public bool CanAttack(GameObject combatTarget)
+        {
+            if (combatTarget == null) return false;
+            Health candidate = combatTarget.GetComponent<Health>();
+            return candidate != null && !candidate.IsDead();
+        }
+
+        public void StartAttackAction(GameObject combatTarget)
+        {
+            fightMode = false;
+
+            shouldAttack = true;
+            actionScheduler.StartAction(this);
+            target = combatTarget.GetComponent<Health>();
+        }
+
+        public void StartAttackAction(GameObject combatTarget, int actionPoints, Action<int> useActionPoints, Action actionFinished)
+        {
+            if (actionPoints < attackCost) return;
+
+            fightMode = true;
+
+            shouldAttack = true;
+            actionScheduler.StartAction(this);
+            target = combatTarget.GetComponent<Health>();
+
+            this.actionPoints = actionPoints;
+            this.useActionPoints = useActionPoints;
+            this.actionFinished = actionFinished;
+        }
+
+        public void CancelAction()
+        {
+            shouldAttack = false;
+            animator.ResetTrigger("attack");
+            animator.SetTrigger("stopAttack");
+            target = null;
+        }
+
+        // PRIVATE
+
+        void Attack()
+        {
+            transform.LookAt(target.transform);
+            animator.ResetTrigger("stopAttack");
+            animator.SetTrigger("attack");
+            shouldAttack = false;
+        }
+
+        void Hit()
+        {
+            if (target == null) return;
+            target.TakeDamage(weaponDamage);
+        }
+
+        bool IsTargetInRange()
+        {
+            return Vector3.Distance(transform.position, target.transform.position) <= weaponRange;
+        }
+    }
+}

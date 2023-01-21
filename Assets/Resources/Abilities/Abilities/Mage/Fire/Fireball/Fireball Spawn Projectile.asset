@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cd5a14f39b58409c6885fd9994811, type: 3}
+  m_Name: Fireball Spawn Projectile
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 6636072634189105073, guid: 1ab8c93d5c93ff4459caa56adea5ce91, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: 9e31daffe14b1684db1554881e1fd49b, type: 2}
+  - {fileID: 11400000, guid: ce219499e8b1a1e4e81ebe8656ff54c7, type: 2}
+  - {fileID: 11400000, guid: ad50a81483106a1438e038c41a9b55c9, type: 2}

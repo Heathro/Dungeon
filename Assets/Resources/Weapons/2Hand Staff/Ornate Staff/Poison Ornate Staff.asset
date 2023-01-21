@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Poison Ornate Staff
+  m_EditorClassIdentifier: 
+  itemID: b32b7d90-0723-403a-ac1a-a7be37b55ee6
+  displayName: Poison Ornate Staff
+  description: 12 Poison Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: 75cbe89f7ecf19d4489866225c5e56e4, type: 3}
+  icon: {fileID: 21300000, guid: d150e478d4dd8e147a8948472887031e, type: 3}
+  weight: 9.2
+  stackable: 0
+  price: 284
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 6
+  equippedPrefab: {fileID: 8000270148695665610, guid: ef1dcb8d5baa0d54b852325afc8bcd2e, type: 3}
+  isRightHanded: 1
+  isMelee: 0
+  isRanged: 0
+  weaponRange: 10.7
+  weaponDamage: 12
+  damageType: 7
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 235f63cac0a6a384c9dfeb667c0160a5, type: 3}
+  projectileType: 0

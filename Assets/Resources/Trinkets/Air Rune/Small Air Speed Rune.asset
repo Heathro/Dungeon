@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Air Speed Rune
+  m_EditorClassIdentifier: 
+  itemID: 96d7670a-4e6b-4f6e-ae02-3051a921762e
+  displayName: Small Air Speed Rune
+  description: '+5% Air Resistance
+
+    +3% Movement'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 7daba959381b4804b88f54383fa33f47, type: 3}
+  icon: {fileID: 21300000, guid: 2c1e2bd129b7e0246a9b3652d2b1aa35, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 15
+    amount: 5
+  percentageModifiers:
+  - stat: 6
+    amount: 3

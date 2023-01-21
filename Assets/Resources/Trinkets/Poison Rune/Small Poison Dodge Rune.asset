@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Poison Dodge Rune
+  m_EditorClassIdentifier: 
+  itemID: 13fddf06-51db-4533-b3b3-5d8bc791ab78
+  displayName: Small Poison Dodge Rune
+  description: '+5% Poison Resistance
+
+    +3% Dodging'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 89a6f3248878f6d42b0952c00d3e4312, type: 3}
+  icon: {fileID: 21300000, guid: 6a2f38156854bf14d8b804eb729d21cd, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 16
+    amount: 5
+  - stat: 18
+    amount: 3
+  percentageModifiers: []

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Oil Boom Ability
+  m_EditorClassIdentifier: 
+  itemID: eceec814-40a5-4b89-8885-eb73e0e17658
+  displayName: Oil Boom
+  description: 'Launch oil boom
+
+    dealing 11-18 Earth Damage
+
+    and infecting
+    the target'
+  additionalInfo: 'Set Oiled
+
+    (-20% Movement, -15% Fire Resistance)
+
+    Duration
+    2 turns'
+  itemCategory: 5
+  pickup: {fileID: 2721224917630891909, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+  icon: {fileID: 21300000, guid: 2c04f4986ebc72e48a8b0c3eb2e42db2, type: 3}
+  weight: 0
+  stackable: 0
+  price: 0
+  consumable: 0
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 1
+  damageBase: 10
+  cost: 2
+  cooldown: 5
+  distance: 9.8
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 5
+  targeting: {fileID: 11400000, guid: 122b752358b30ff46b6e8f68550f5470, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: c0d3b6f4b0fcba148a0ce8fc2c6b3ec2, type: 2}
+  - {fileID: 11400000, guid: fe88520f4355c6a47a0bc0130b379d41, type: 2}
+  - {fileID: 11400000, guid: d4a653d89cf6c4345bb2905521485d09, type: 2}
+  delayedEffects:
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 026eb312c0194fa4b95335207368c0b1, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 1885fb0f7793fa04888900897782ae87, type: 2}
+  - delay: 3.5
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3432f997f8fe06141ba9011435b2d1aa, type: 3}
+  m_Name: Air Dart Spawn Projectile
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 4367235404524909440, guid: d8fd3bf4a337259458a8b99439674a8f, type: 3}
+  boltPrefab: {fileID: 4367235404524909440, guid: 4b640f0deccfe67469f4f6bd9ca2df6f, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: d6bba59df602baf4081674b6b39f87a7, type: 2}
+  - {fileID: 11400000, guid: e7361282dd377c0418b5a81eeb0eb350, type: 2}
+  - {fileID: 11400000, guid: 648bedd85d23fb64b9e8fffa427454b0, type: 2}
+  - {fileID: 11400000, guid: 784b6aad9eb0d204a942ed1996d638fe, type: 2}

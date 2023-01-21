@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Physical Critical Rune
+  m_EditorClassIdentifier: 
+  itemID: 88ebcf5d-1187-4eba-85ff-cb1c5e147ada
+  displayName: Small Physical Critical Rune
+  description: '+7 Physical Armor
+
+    +1% Critical Chance'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 7631834a560c85c4ea17b6745822a0c9, type: 3}
+  icon: {fileID: 21300000, guid: bfbe270e1888d8c4298c54895aa05a55, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 2
+    amount: 7
+  - stat: 11
+    amount: 1
+  percentageModifiers: []

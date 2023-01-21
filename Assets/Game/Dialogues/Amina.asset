@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9212576524000544585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 66f772f8-dc58-4be0-9a2b-a63e6fff9ff3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Arthur is waiting for you in library.
+  children:
+  - 987e52a7-9a18-40fc-b755-4cfdf28e212b
+  rect:
+    serializedVersion: 2
+    x: 765
+    y: 54
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-8703700503410622929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 4edbd594-7c7d-4014-8499-a0a937f49e69
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you!
+  children:
+  - fddbe513-2441-49fb-bee3-2ddbbe266fb4
+  rect:
+    serializedVersion: 2
+    x: 513
+    y: 290
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-6417640900899323538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: a8bff24d-a77c-496b-a577-df53b8e23982
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: You are a ghost. We will destroy you.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 232
+    y: 562
+    width: 200
+    height: 100
+  onSelectAction: StartFight
+  condition:
+    and: []
+--- !u!114 &-4355759174807811706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 987e52a7-9a18-40fc-b755-4cfdf28e212b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh thank you, I'll go to him when it's safe.
+  children:
+  - 61e0cfa1-70b1-4a7e-8bc0-3b532a6676bf
+  rect:
+    serializedVersion: 2
+    x: 1015
+    y: 53
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-3581915913869733217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 5e43ffc6-2aec-4e19-8730-665f416202eb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes, how did you know?
+  children:
+  - 66f772f8-dc58-4be0-9a2b-a63e6fff9ff3
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 53
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-3330515217998094247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 9906e2c3-f731-4101-9d20-6ddb6be831f8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: We told Arthur that you are coming.
+  children:
+  - 4edbd594-7c7d-4014-8499-a0a937f49e69
+  rect:
+    serializedVersion: 2
+    x: 273
+    y: 290
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Lost beloved
+        negate: 0
+    - or:
+      - predicate: HasObjective
+        parameters:
+        - Lost beloved
+        - 2
+        negate: 0
+--- !u!114 &-3128707763530171652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: f1048986-49d8-4166-b43c-942bfec1c892
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Be careful in this place.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 766
+    y: 412
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-2473217845179062269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 61e0cfa1-70b1-4a7e-8bc0-3b532a6676bf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hurry up!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1265
+    y: 54
+    width: 200
+    height: 100
+  onSelectAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &-1803059187861856050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: dae79d26-473b-43f7-8924-dca4ab773d10
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I'll go to him when it's safe.
+  children:
+  - fddbe513-2441-49fb-bee3-2ddbbe266fb4
+  rect:
+    serializedVersion: 2
+    x: 514
+    y: 171
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-471562096220600601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 777fbe4e-7bd6-45c3-bcd3-3b2f17227459
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh, hi darling!
+  children:
+  - c8db62ed-ea6b-4d67-aaa1-a602da854d43
+  - a1c265a0-59c8-4890-9bd9-d718c542861d
+  - c1e1aa8f-be9d-43bb-a30f-29684193dea1
+  - 9906e2c3-f731-4101-9d20-6ddb6be831f8
+  - a8bff24d-a77c-496b-a577-df53b8e23982
+  rect:
+    serializedVersion: 2
+    x: 14
+    y: 191
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Amina
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: -471562096220600601}
+  - {fileID: 1951808438222727403}
+  - {fileID: 4978653957370097262}
+  - {fileID: -3581915913869733217}
+  - {fileID: -9212576524000544585}
+  - {fileID: -4355759174807811706}
+  - {fileID: 7695598299963113465}
+  - {fileID: -3128707763530171652}
+  - {fileID: 1360863106220699720}
+  - {fileID: -3330515217998094247}
+  - {fileID: -8703700503410622929}
+  - {fileID: -1803059187861856050}
+  - {fileID: -6417640900899323538}
+  - {fileID: 6962024978125740490}
+  - {fileID: -2473217845179062269}
+--- !u!114 &1360863106220699720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: c1e1aa8f-be9d-43bb-a30f-29684193dea1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: You are still here?
+  children:
+  - dae79d26-473b-43f7-8924-dca4ab773d10
+  rect:
+    serializedVersion: 2
+    x: 272
+    y: 170
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Lost beloved
+        negate: 0
+    - or:
+      - predicate: HasObjective
+        parameters:
+        - Lost beloved
+        - 1
+        negate: 0
+--- !u!114 &1951808438222727403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: c8db62ed-ea6b-4d67-aaa1-a602da854d43
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Are you Amina?
+  children:
+  - 5e43ffc6-2aec-4e19-8730-665f416202eb
+  rect:
+    serializedVersion: 2
+    x: 272
+    y: 51
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Lost beloved
+        negate: 0
+    - or:
+      - predicate: HasObjective
+        parameters:
+        - Lost beloved
+        - 1
+        negate: 1
+--- !u!114 &4978653957370097262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: a1c265a0-59c8-4890-9bd9-d718c542861d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you?
+  children:
+  - 9f44b505-31ff-4350-9a1f-843f0a0aa9e3
+  rect:
+    serializedVersion: 2
+    x: 272
+    y: 410
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Lost beloved
+        negate: 1
+--- !u!114 &6962024978125740490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: fddbe513-2441-49fb-bee3-2ddbbe266fb4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hurry up!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 769
+    y: 220
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &7695598299963113465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 9f44b505-31ff-4350-9a1f-843f0a0aa9e3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Don't bother me, I'm busy.
+  children:
+  - f1048986-49d8-4166-b43c-942bfec1c892
+  - a8bff24d-a77c-496b-a577-df53b8e23982
+  rect:
+    serializedVersion: 2
+    x: 519
+    y: 415
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

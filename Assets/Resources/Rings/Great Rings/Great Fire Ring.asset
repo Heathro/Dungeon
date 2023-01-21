@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Great Fire Ring
+  m_EditorClassIdentifier: 
+  itemID: 277701b6-57d2-41c0-9635-3379dcc4b927
+  displayName: Great Fire Ring
+  description: '+10% Fire Resistance
+
+    +1 Intelligence'
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: 970199e831d77be4db4d8a3d0bca52c4, type: 3}
+  icon: {fileID: 21300000, guid: ed966ca2dca858644acc4c5c9938ff6c, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 52
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 12
+    amount: 10
+  - stat: 21
+    amount: 1
+  percentageModifiers: []

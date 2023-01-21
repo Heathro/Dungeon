@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5331671819210547059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 442daf1a-6f50-41a0-8933-c29421b499c4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: We will get that for you.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1187
+    y: 138
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-4316937362682670681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 938c1782-9a11-443e-be3d-c79d9279702e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where are you from?
+  children:
+  - 212efe67-f092-4044-a4f2-7fadff0d8616
+  rect:
+    serializedVersion: 2
+    x: 248
+    y: 101
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-1719359446210006912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 4ebc9f01-77af-4424-aa4c-9d2f4a93ff5a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I had to find book of dead. Now I got it and can create new body.
+  children:
+  - 0098e659-1b64-4268-84b7-f172b9b1ca99
+  rect:
+    serializedVersion: 2
+    x: 967
+    y: 236
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Hunter
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 7609674343535061548}
+  - {fileID: -4316937362682670681}
+  - {fileID: 5745149954826633412}
+  - {fileID: 6070068816568284726}
+  - {fileID: 5189024606695041289}
+  - {fileID: 2920102105783893301}
+  - {fileID: 3105768906641100560}
+  - {fileID: -1719359446210006912}
+  - {fileID: -5331671819210547059}
+  - {fileID: 7826287982894816534}
+--- !u!114 &2920102105783893301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 905fa734-f50a-4936-895a-59686781875c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Nothing.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 251
+    y: 358
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &3105768906641100560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 97c723dc-3789-4ca8-86cc-b39fcce9b6ab
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I have to find book of dead, which will help me with new body. Must be in
+    the lab.
+  children:
+  - 442daf1a-6f50-41a0-8933-c29421b499c4
+  rect:
+    serializedVersion: 2
+    x: 964
+    y: 137
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &5189024606695041289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: f26a6bd9-2766-4754-a3f1-c0cd9fc2e987
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 4ebc9f01-77af-4424-aa4c-9d2f4a93ff5a
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 237
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Book of dead
+        negate: 0
+--- !u!114 &5745149954826633412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 212efe67-f092-4044-a4f2-7fadff0d8616
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I was a royal hunter. But strange creature bites me, so I become undead!
+  children:
+  - e77d72e2-cb42-4430-9c4d-390877397d66
+  - f26a6bd9-2766-4754-a3f1-c0cd9fc2e987
+  rect:
+    serializedVersion: 2
+    x: 461
+    y: 30
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &6070068816568284726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: e77d72e2-cb42-4430-9c4d-390877397d66
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 97c723dc-3789-4ca8-86cc-b39fcce9b6ab
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 138
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Book of dead
+        negate: 1
+--- !u!114 &7609674343535061548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: b4c0cbaa-2d08-4c9c-a51b-4747453056ae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Huh?
+  children:
+  - 938c1782-9a11-443e-be3d-c79d9279702e
+  - e77d72e2-cb42-4430-9c4d-390877397d66
+  - f26a6bd9-2766-4754-a3f1-c0cd9fc2e987
+  - 905fa734-f50a-4936-895a-59686781875c
+  rect:
+    serializedVersion: 2
+    x: 19
+    y: 211
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &7826287982894816534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 0098e659-1b64-4268-84b7-f172b9b1ca99
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hope to see your new body.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1188
+    y: 239
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

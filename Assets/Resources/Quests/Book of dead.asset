@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e02305617b8e754a9ba72a21d07303f, type: 3}
+  m_Name: Book of dead
+  m_EditorClassIdentifier: 
+  questOwner: 3
+  story: For a long time I have been looking for the book of the dead. I need that
+    to get a new body. I heard it's being held by a crazy scientist Viktor in the
+    lab in this dungeon.
+  objectives:
+  - reference: 1
+    description: Find the lab
+  - reference: 2
+    description: Get the book
+  rewards: []
+  experience: 300

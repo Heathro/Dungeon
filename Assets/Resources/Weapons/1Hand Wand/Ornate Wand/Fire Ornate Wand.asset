@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Fire Ornate Wand
+  m_EditorClassIdentifier: 
+  itemID: 66fb85da-c97f-4127-8a70-f390b92f15ef
+  displayName: Fire Ornate Wand
+  description: 11 Fire Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 4447683191122425699, guid: 8ce89ea918fa1c849bdd8fbe8e6d1769, type: 3}
+  icon: {fileID: 21300000, guid: 1181f06e637cf85418ba8cc92d7fbf11, type: 3}
+  weight: 1.8
+  stackable: 0
+  price: 121
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 15
+  equippedPrefab: {fileID: 8000270148695665610, guid: a02c8c59588e2294fb3b3ff135998be3, type: 3}
+  isRightHanded: 1
+  isMelee: 0
+  isRanged: 0
+  weaponRange: 11.8
+  weaponDamage: 11
+  damageType: 3
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 876623db92ce2b44cacd761021c7ed28, type: 3}
+  projectileType: 0

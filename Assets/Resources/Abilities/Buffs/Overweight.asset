@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb5e19c93fe5964bb8b658d3919276c, type: 3}
+  m_Name: Overweight
+  m_EditorClassIdentifier: 
+  buffID: 0a5e6881-c9e7-4623-8104-10bd24ff1fcc
+  icon: {fileID: 21300000, guid: e33743ff6e4867149ac76e88d16e7226, type: 3}
+  title: Overweight
+  description: Can't move
+  duration: 0
+  damageType: 0
+  isPeriodic: 0
+  skipFirst: 0
+  isPermanent: 1
+  replacing: {fileID: 0}
+  additiveModifiers: []
+  percentageModifiers: []

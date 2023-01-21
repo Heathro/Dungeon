@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Regular Magic Necklace
+  m_EditorClassIdentifier: 
+  itemID: 854fa698-5353-4653-b06f-edf17460afa0
+  displayName: Magic Necklace
+  description: '+36 Magic Armor
+
+    +3% Fire Resistance
+
+    +3% Water Resistance
+
+    +3%
+    Earth Resistance
+
+    +3% Air Resistance
+
+    +3% Poison Resistance'
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: a7eada86a37d02144a4b34106fcc42ae, type: 3}
+  icon: {fileID: 21300000, guid: 1d6fe4950234d1047b624bda3be11a38, type: 3}
+  weight: 0.9
+  stackable: 0
+  price: 36
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 1
+    amount: 36
+  - stat: 12
+    amount: 3
+  - stat: 13
+    amount: 3
+  - stat: 14
+    amount: 3
+  - stat: 15
+    amount: 3
+  - stat: 16
+    amount: 3
+  percentageModifiers: []

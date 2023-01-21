@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Poisonous Vine Ability
+  m_EditorClassIdentifier: 
+  itemID: 93f26e6e-3641-4e34-948c-1c98892ef415
+  displayName: Poisonous Vine
+  description: 'Launch poisonous vine in
+
+    chosen direction that deals
+
+    13-23
+    Poison Damage'
+  additionalInfo: 
+  itemCategory: 5
+  pickup: {fileID: 2721224917630891909, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+  icon: {fileID: 21300000, guid: 401607b02e93f734cb9cabbdb7e4be54, type: 3}
+  weight: 0
+  stackable: 0
+  price: 0
+  consumable: 0
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 1
+  damageBase: 10
+  cost: 3
+  cooldown: 6
+  distance: 9.5
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 7
+  targeting: {fileID: 11400000, guid: fcc0b29384d02134eb431816ffb2e1a8, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 23c683e3d38b30843920603d41b764a7, type: 2}
+  alternativeFilters:
+  - {fileID: 11400000, guid: 23c683e3d38b30843920603d41b764a7, type: 2}
+  targetingEffects:
+  - {fileID: 11400000, guid: d4a653d89cf6c4345bb2905521485d09, type: 2}
+  afterUseEffects:
+  - {fileID: 11400000, guid: c0d3b6f4b0fcba148a0ce8fc2c6b3ec2, type: 2}
+  - {fileID: 11400000, guid: fe88520f4355c6a47a0bc0130b379d41, type: 2}
+  delayedEffects:
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 44a807a94eeebf84082d86cdebe50129, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 7ab90bf338cfd374a95054cd14405149, type: 2}
+  - delay: 0.5
+    effect: {fileID: 11400000, guid: 84125d78ef56606409f76a11613b91f8, type: 2}
+  - delay: 0.5
+    effect: {fileID: 11400000, guid: ca9c1e43c09a6564eaa3a5b9765ab24f, type: 2}
+  - delay: 4.3
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

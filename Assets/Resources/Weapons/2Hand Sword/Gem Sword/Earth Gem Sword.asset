@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Earth Gem Sword
+  m_EditorClassIdentifier: 
+  itemID: 114ab2a3-c82c-46f6-9245-0b49c70c13b4
+  displayName: Earth Gem Sword
+  description: '13 Physical Damage
+
+    +12% Earth Resistance'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: 7bcd1d1f13db60448b7dc698451cb68a, type: 3}
+  icon: {fileID: 21300000, guid: 542eeac8004f8f941983aeb9f1f2387e, type: 3}
+  weight: 8.4
+  stackable: 0
+  price: 297
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 14
+    amount: 12
+  percentageModifiers: []
+  weaponType: 7
+  equippedPrefab: {fileID: -7601804713655604923, guid: 0a8efe6c8116b614c916a647063fb807, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 13
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

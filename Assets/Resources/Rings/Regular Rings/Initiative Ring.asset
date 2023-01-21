@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Initiative Ring
+  m_EditorClassIdentifier: 
+  itemID: c2185621-c99d-4803-92ba-e03842602a4a
+  displayName: Initiative Ring
+  description: +2 Initiative
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: 084a473c971f87d498914beaee86da48, type: 3}
+  icon: {fileID: 21300000, guid: 784bfa0d222c2e040a9515df291ae58f, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 34
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 7
+    amount: 2
+  percentageModifiers: []

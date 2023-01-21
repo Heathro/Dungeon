@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Earth Crystal Sword
+  m_EditorClassIdentifier: 
+  itemID: 512aac13-7b77-4e01-9016-1d1a36cf3770
+  displayName: Earth Crystal Sword
+  description: 12 Earth Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 7549044153351190182, guid: 6af62e8748bd6b648bcddedb53f08c7a, type: 3}
+  icon: {fileID: 21300000, guid: 91ac53b7a8ecbe24d8a425b69bf54e76, type: 3}
+  weight: 4.9
+  stackable: 0
+  price: 188
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 14
+  equippedPrefab: {fileID: 8000270148695665610, guid: 372287cef0f289942b2b9364e55746b3, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 12
+  damageType: 5
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 7d0fdf38ee55d5645a91266cfb3eb4c3, type: 3}
+  projectileType: 0

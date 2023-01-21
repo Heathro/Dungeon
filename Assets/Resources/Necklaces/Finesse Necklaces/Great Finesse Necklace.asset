@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Great Finesse Necklace
+  m_EditorClassIdentifier: 
+  itemID: 914b8cae-766f-4ed2-b50a-8f580673932e
+  displayName: Great Finesse Necklace
+  description: '+3 Finesse
+
+    +4% Movement'
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: 56f8a00cd1dd3de4d90ee61babbe4cfc, type: 3}
+  icon: {fileID: 21300000, guid: 727d44f8058559043b2b6a785e3a6c47, type: 3}
+  weight: 1.1
+  stackable: 0
+  price: 52
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 20
+    amount: 3
+  percentageModifiers:
+  - stat: 6
+    amount: 4

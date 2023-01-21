@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Water Dodge Rune
+  m_EditorClassIdentifier: 
+  itemID: 7ebc5303-ba52-47ab-8532-f6ab7593c916
+  displayName: Small Water Dodge Rune
+  description: '+5% Water Resistance
+
+    +3% Dodging'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: f44dcbd7f51d06746875f310ea81b944, type: 3}
+  icon: {fileID: 21300000, guid: a23aa6fd786a2ed49a4966bf59e83e9a, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 13
+    amount: 5
+  - stat: 18
+    amount: 3
+  percentageModifiers: []

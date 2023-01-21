@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Regular Health Necklace
+  m_EditorClassIdentifier: 
+  itemID: cdd064bc-ff03-4061-a7ec-06de5698b7c5
+  displayName: Health Necklace
+  description: '+36 Health Points
+
+    +3% Dodging'
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: a08968dea8e9aca4ea1838bbf9c570e6, type: 3}
+  icon: {fileID: 21300000, guid: 14a8c1d36f8541d429886fead6899342, type: 3}
+  weight: 0.9
+  stackable: 0
+  price: 36
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 0
+    amount: 36
+  - stat: 18
+    amount: 3
+  percentageModifiers: []

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Great Magic Necklace
+  m_EditorClassIdentifier: 
+  itemID: 36063ac4-efed-4a7f-b9e5-5bdd3832c001
+  displayName: Great Magic Necklace
+  description: '+54 Magic Armor
+
+    +6% Fire Resistance
+
+    +6% Water Resistance
+
+    +6%
+    Earth Resistance
+
+    +6% Air Resistance
+
+    +6% Poison Resistance'
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: 645d9589280e56d41907f6eebc773d0b, type: 3}
+  icon: {fileID: 21300000, guid: 711ead2f9570bb74b901dbf0efbf3c15, type: 3}
+  weight: 1.1
+  stackable: 0
+  price: 52
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 1
+    amount: 54
+  - stat: 12
+    amount: 6
+  - stat: 13
+    amount: 6
+  - stat: 14
+    amount: 6
+  - stat: 15
+    amount: 6
+  - stat: 16
+    amount: 6
+  percentageModifiers: []

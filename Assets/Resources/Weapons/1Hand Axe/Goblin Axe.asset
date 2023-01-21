@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Goblin Axe
+  m_EditorClassIdentifier: 
+  itemID: af340180-5129-48f2-b312-2f16aa839364
+  displayName: Goblin Axe
+  description: '11 Physical Damage
+
+    +5% Movement'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 7549044153351190182, guid: a1e270bf9f6eb8c4788fd862b272596c, type: 3}
+  icon: {fileID: 21300000, guid: fc8a3f87cd05d0b46899c23c4a434433, type: 3}
+  weight: 9.8
+  stackable: 0
+  price: 3
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers:
+  - stat: 6
+    amount: 5
+  weaponType: 10
+  equippedPrefab: {fileID: 8000270148695665610, guid: a0335f2c673933440b4842c51a0ab4b7, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 11
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

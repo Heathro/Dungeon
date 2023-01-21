@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  itemID: 28a7368d-8169-42c1-926f-37e1e7b5eef8
+  displayName: Bow
+  description: '11 Physical Damage
+
+    +5% Critical Chance'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: f86fc45756367bf45a2b084789cb0860, type: 3}
+  icon: {fileID: 21300000, guid: 6ee6b6e32c9fb734199ab65444c3aa1a, type: 3}
+  weight: 5.6
+  stackable: 0
+  price: 149
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 11
+    amount: 5
+  percentageModifiers: []
+  weaponType: 3
+  equippedPrefab: {fileID: -8708224384690383917, guid: 10058358debc91a4aac21db720eb213b, type: 3}
+  isRightHanded: 0
+  isMelee: 0
+  isRanged: 1
+  weaponRange: 12.6
+  weaponDamage: 11
+  damageType: 1
+  damageBase: 9
+  attackCost: 2
+  projectilePrefab: {fileID: 7435749720062871577, guid: b85fba7a473960447a850c4f4c3214aa, type: 3}
+  projectileType: 1

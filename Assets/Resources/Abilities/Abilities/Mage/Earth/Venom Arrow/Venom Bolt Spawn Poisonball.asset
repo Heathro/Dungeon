@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24a14190ab19fd46bf4522769fcb9cd, type: 3}
+  m_Name: Venom Bolt Spawn Poisonball
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7695432143176699424, guid: 50ff4a42ff5c03d48bc8e87e0aa6cf0d, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: b927a93afbc5a9f43acf8f0d2ceb9b85, type: 2}
+  - {fileID: 11400000, guid: c4d917b87d6585542881f3cb53eb8a64, type: 2}
+  - {fileID: 11400000, guid: 7a5c6798ac84bbb40af911001ecd0479, type: 2}
+  - {fileID: 11400000, guid: 7e210c8660129da41bf1ad7fba70deee, type: 2}
+  - {fileID: 11400000, guid: ca9c1e43c09a6564eaa3a5b9765ab24f, type: 2}

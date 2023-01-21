@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Large Fire Dodge Rune
+  m_EditorClassIdentifier: 
+  itemID: 59dd00a6-9f78-40b5-9e98-daddbc1b7c84
+  displayName: Large Fire Dodge Rune
+  description: '+10% Fire Resistance
+
+    +6% Dodging'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 12048a4a8a1341248bf28b978315835c, type: 3}
+  icon: {fileID: 21300000, guid: 2e79d3af42235b841980eaa6a71f8877, type: 3}
+  weight: 0.1
+  stackable: 0
+  price: 100
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 12
+    amount: 10
+  - stat: 18
+    amount: 6
+  percentageModifiers: []

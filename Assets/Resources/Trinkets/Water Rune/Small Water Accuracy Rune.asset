@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Water Accuracy Rune
+  m_EditorClassIdentifier: 
+  itemID: ec966f0a-56cf-49f8-b55c-4d487c70fdde
+  displayName: Small Water Accuracy Rune
+  description: '+5% Water Resistance
+
+    +3% Accuracy'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 104828155b478fd4d8cb71c1513bd10c, type: 3}
+  icon: {fileID: 21300000, guid: a23aa6fd786a2ed49a4966bf59e83e9a, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 13
+    amount: 5
+  - stat: 17
+    amount: 3
+  percentageModifiers: []

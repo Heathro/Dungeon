@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24a14190ab19fd46bf4522769fcb9cd, type: 3}
+  m_Name: Water Lance Spawn Projectile
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7695432143176699424, guid: 30015d4b2ddecd447b83516d2684dca8, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: f7ae92c36b3a27b488bc005fe82e1a9c, type: 2}
+  - {fileID: 11400000, guid: 9acd679065ee60043a03272d6f532dd0, type: 2}
+  - {fileID: 11400000, guid: 891f4f04ec67a324192571bf636f4ae9, type: 2}
+  - {fileID: 11400000, guid: 08362bb3b242afc488dbc9ba18c22463, type: 2}
+  - {fileID: 11400000, guid: ca9c1e43c09a6564eaa3a5b9765ab24f, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e02305617b8e754a9ba72a21d07303f, type: 3}
+  m_Name: Crystal of magic
+  m_EditorClassIdentifier: 
+  questOwner: 4
+  story: An ancient wizard Unkhar, who went insane exploring the crystal of magic.
+    By killing him, I can take the knowledge he gained from crystal. Then I can return
+    to my homeland and save the magic. Crystal of magic must be somewhere in giant
+    cave.
+  objectives:
+  - reference: 1
+    description: Get to the cave
+  - reference: 2
+    description: 'Kill Unkhar '
+  rewards: []
+  experience: 300

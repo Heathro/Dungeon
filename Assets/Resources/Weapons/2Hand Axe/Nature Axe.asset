@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Nature Axe
+  m_EditorClassIdentifier: 
+  itemID: d8f1af42-490b-4f63-b9c0-59b5c4e8916a
+  displayName: Nature Axe
+  description: 10 Physical Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: cf50945ae8d1e6540a47f3e06855acd4, type: 3}
+  icon: {fileID: 21300000, guid: 3cc4bfa5a3541d2488661c34d4294b16, type: 3}
+  weight: 2.9
+  stackable: 0
+  price: 204
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 2
+  equippedPrefab: {fileID: 8000270148695665610, guid: f0730e23b57792448a05fe97cc28b026, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 10
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

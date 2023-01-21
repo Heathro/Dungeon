@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Great Initiative Ring
+  m_EditorClassIdentifier: 
+  itemID: b2d68450-941b-4fab-9f0b-28c6abf2e5d8
+  displayName: Great Initiative Ring
+  description: '+2 Initiative
+
+    +1 Intelligence'
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: 084a473c971f87d498914beaee86da48, type: 3}
+  icon: {fileID: 21300000, guid: 1133bfdad4ed9df4e933eff8c2b7376e, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 68
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 7
+    amount: 2
+  - stat: 21
+    amount: 1
+  percentageModifiers: []

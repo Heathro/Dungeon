@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Large Physical Initiative Rune
+  m_EditorClassIdentifier: 
+  itemID: 00ed3d2d-8ef7-4009-80e2-1fcea43e810f
+  displayName: Large Physical Initiative Rune
+  description: '+14 Physical Armor
+
+    +2 Initiative'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: dca753b8a24e9b44b8fa4e581895f2b1, type: 3}
+  icon: {fileID: 21300000, guid: e6d370dd2cc20244ea9f1a76d6efc8fe, type: 3}
+  weight: 0.1
+  stackable: 0
+  price: 100
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 2
+    amount: 14
+  - stat: 7
+    amount: 2
+  percentageModifiers: []

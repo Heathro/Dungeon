@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7185053736158715097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 1eaebd16-d17a-45af-8ef3-a866457c3a7a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Don't worry! We will find it.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1226
+    y: 131
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-5404167615591603216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 1392d699-9248-4442-a583-3fccffc01b4e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I am a paladin and serve the order.
+  children:
+  - d6229c87-db6d-4f0b-a3d8-5c298fc7101c
+  - 6fd8990d-f2e8-4621-975a-6daf6a9086b0
+  rect:
+    serializedVersion: 2
+    x: 479
+    y: 37
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-4316937362682670681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 938c1782-9a11-443e-be3d-c79d9279702e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where are you from?
+  children:
+  - 1392d699-9248-4442-a583-3fccffc01b4e
+  rect:
+    serializedVersion: 2
+    x: 253
+    y: 102
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-3464260021852000340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 7c71188c-4175-4825-8ef6-e05f6a07c545
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I came here to find stolen manuscript. We found it. I will return that.
+  children:
+  - 611c9aa1-3721-4d76-8e63-0a5ee83bcead
+  rect:
+    serializedVersion: 2
+    x: 989
+    y: 245
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-1822715272769724043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 86cfa318-483e-4584-8076-763fc2b0f538
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: The manuscript from citadel was stolen. I am here to find that. I heard that
+    could be in shrine.
+  children:
+  - 1eaebd16-d17a-45af-8ef3-a866457c3a7a
+  rect:
+    serializedVersion: 2
+    x: 988
+    y: 131
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-1471792255029598684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: d6229c87-db6d-4f0b-a3d8-5c298fc7101c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 86cfa318-483e-4584-8076-763fc2b0f538
+  rect:
+    serializedVersion: 2
+    x: 746
+    y: 130
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Stolen manuscript
+        negate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Paladin
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 7609674343535061548}
+  - {fileID: -4316937362682670681}
+  - {fileID: -5404167615591603216}
+  - {fileID: -1471792255029598684}
+  - {fileID: -1822715272769724043}
+  - {fileID: -3464260021852000340}
+  - {fileID: -7185053736158715097}
+  - {fileID: 8480811659764160528}
+  - {fileID: 4644051755825142331}
+  - {fileID: 7547686022786112260}
+--- !u!114 &4644051755825142331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 6fd8990d-f2e8-4621-975a-6daf6a9086b0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Why you came here?
+  children:
+  - 7c71188c-4175-4825-8ef6-e05f6a07c545
+  rect:
+    serializedVersion: 2
+    x: 747
+    y: 244
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Stolen manuscript
+        negate: 0
+--- !u!114 &7547686022786112260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 385f22dc-af21-49ef-be3e-dca06a378076
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Nothing.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 337
+    y: 314
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &7609674343535061548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: b4c0cbaa-2d08-4c9c-a51b-4747453056ae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: What?
+  children:
+  - 938c1782-9a11-443e-be3d-c79d9279702e
+  - d6229c87-db6d-4f0b-a3d8-5c298fc7101c
+  - 6fd8990d-f2e8-4621-975a-6daf6a9086b0
+  - 385f22dc-af21-49ef-be3e-dca06a378076
+  rect:
+    serializedVersion: 2
+    x: 17
+    y: 215
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &8480811659764160528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 611c9aa1-3721-4d76-8e63-0a5ee83bcead
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Good news!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1223
+    y: 246
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

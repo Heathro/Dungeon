@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e02305617b8e754a9ba72a21d07303f, type: 3}
+  m_Name: Lost beloved
+  m_EditorClassIdentifier: 
+  questOwner: 0
+  story: We help Arthur find his beloved Amina. She has to be somewhere in this dungeon.
+    Arthur will give as ancient weapon, if we will help him.
+  objectives:
+  - reference: 1
+    description: Find Amina and tell where Arthur is waiting for her
+  - reference: 2
+    description: Return to Arthur and tell him about Amina
+  rewards:
+  - number: 1
+    item: {fileID: 11400000, guid: 2663d871df36c9143980b0a4bfb7e5e3, type: 2}
+  experience: 400

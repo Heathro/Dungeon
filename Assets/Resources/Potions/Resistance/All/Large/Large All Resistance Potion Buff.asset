@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb5e19c93fe5964bb8b658d3919276c, type: 3}
+  m_Name: Large All Resistance Potion Buff
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 79fee6c89fbb7f54fba61db94b2d338e, type: 3}
+  title: Holy Shield
+  description: '60% Fire Resistance
+
+    60% Water Resistance
+
+    60% Earth Resistance
+
+    60%
+    Air Resistance
+
+    60% Poison Resistance'
+  duration: 2
+  damageType: 8
+  isPeriodic: 0
+  skipFirst: 0
+  additiveModifiers:
+  - stat: 12
+    amount: 60
+  - stat: 13
+    amount: 60
+  - stat: 14
+    amount: 60
+  - stat: 15
+    amount: 60
+  - stat: 16
+    amount: 60
+  percentageModifiers: []

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Poison Gem Axe
+  m_EditorClassIdentifier: 
+  itemID: ba3250d8-31d7-4a95-a7c5-52474dcd8517
+  displayName: Poison Axe
+  description: 11 Poison Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 4273386661610219230, guid: 119622f1f99bfa14492aedf669d4963b, type: 3}
+  icon: {fileID: 21300000, guid: e5b8c8d731a96904b81b8c4b49b25e40, type: 3}
+  weight: 7.1
+  stackable: 0
+  price: 165
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 10
+  equippedPrefab: {fileID: 8000270148695665610, guid: fd7c0cb48bff8e34593a6d965595c4ed, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 11
+  damageType: 7
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 079b6d500b54eb743a8fa409bf43b9cf, type: 3}
+  projectileType: 0

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Resurrection Ability
+  m_EditorClassIdentifier: 
+  itemID: ae6fac78-80d1-4806-a078-6e818ac0339e
+  displayName: Resurrection
+  description: 'Resurrect a dead ally
+
+    to 40% of its vitality'
+  additionalInfo: 
+  itemCategory: 5
+  pickup: {fileID: 2721224917630891909, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+  icon: {fileID: 21300000, guid: 3d37dcc66de5bc148b9e40e6300cfa88, type: 3}
+  weight: 0
+  stackable: 0
+  price: 0
+  consumable: 0
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 0
+  damageBase: 10
+  cost: 3
+  cooldown: 7
+  distance: 15
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 6
+  targeting: {fileID: 11400000, guid: 7670c5e7558087346aff375d53d5fdab, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: c0d3b6f4b0fcba148a0ce8fc2c6b3ec2, type: 2}
+  - {fileID: 11400000, guid: fe88520f4355c6a47a0bc0130b379d41, type: 2}
+  delayedEffects:
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 661cf17f73083e141a28d99938d2081a, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 4361535d96b7c594b9c5d089b3888565, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: bb87e8b63c6730646beaff9c6d9e23c0, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: ca9c1e43c09a6564eaa3a5b9765ab24f, type: 2}
+  - delay: 4.45
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}
+  - delay: 0
+    effect: {fileID: 11400000, guid: d4a653d89cf6c4345bb2905521485d09, type: 2}

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6719287880450524693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: a5405466-d398-43d5-a88d-281a4f5beee6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you?
+  children:
+  - a3e19b62-d254-4e5f-921c-56e69cca73d2
+  rect:
+    serializedVersion: 2
+    x: 238
+    y: 67
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-1764869325322782582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 24ebe327-151a-4e7d-bbfa-1d2feffeeee5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi! How can I help?
+  children:
+  - a5405466-d398-43d5-a88d-281a4f5beee6
+  - fb8419b6-2e7e-4d44-b1af-b8402e9cc8c8
+  - 776c2de7-d748-4845-af99-4b9ebcb70ebb
+  rect:
+    serializedVersion: 2
+    x: 5
+    y: 206
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &-295023899666412216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: fb8419b6-2e7e-4d44-b1af-b8402e9cc8c8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Show me what you have for sale.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 751
+    y: 185
+    width: 200
+    height: 100
+  onSelectAction: StartShop
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Jacob
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: -1764869325322782582}
+  - {fileID: -6719287880450524693}
+  - {fileID: 2708006686561271332}
+  - {fileID: -295023899666412216}
+  - {fileID: 1654685805497193482}
+--- !u!114 &1654685805497193482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 776c2de7-d748-4845-af99-4b9ebcb70ebb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Prepare to die!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: 324
+    width: 200
+    height: 100
+  onSelectAction: StartFight
+  condition:
+    and: []
+--- !u!114 &2708006686561271332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: a3e19b62-d254-4e5f-921c-56e69cca73d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I ran away from my squad. The captain takes all the loot for himself. I took
+    some of the treasure to earn money.
+  children:
+  - fb8419b6-2e7e-4d44-b1af-b8402e9cc8c8
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 10
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

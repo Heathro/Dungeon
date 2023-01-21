@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d9a34d2a4b02c46ad312ed6c6e397b, type: 3}
+  m_Name: Large Poison Bottle Buff
+  m_EditorClassIdentifier: 
+  buffID: 6135585b-cc67-496e-ab6e-8b56c0b4df06
+  icon: {fileID: 21300000, guid: d1ea10147fdc79541b822de67a28b6b4, type: 3}
+  title: Poisoned
+  description: 12 Poison Damage
+  duration: 3
+  damageType: 7
+  isPeriodic: 1
+  skipFirst: 1
+  additiveModifiers: []
+  percentageModifiers: []
+  damage: 12

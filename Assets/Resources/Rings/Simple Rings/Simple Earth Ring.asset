@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Simple Earth Ring
+  m_EditorClassIdentifier: 
+  itemID: 1a2b52dc-36bf-449e-85ab-9ab65a59479c
+  displayName: Simple Earth Ring
+  description: +5% Earth Resistance
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: 970199e831d77be4db4d8a3d0bca52c4, type: 3}
+  icon: {fileID: 21300000, guid: 86bc72ba9c927424c9c63220b5cd4939, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 13
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 14
+    amount: 5
+  percentageModifiers: []

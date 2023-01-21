@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb5e19c93fe5964bb8b658d3919276c, type: 3}
+  m_Name: Fortify Buff
+  m_EditorClassIdentifier: 
+  buffID: 5b831e32-971e-476d-8b0b-b3f97fe6d059
+  icon: {fileID: 21300000, guid: eeff981be030e6649ac8ace06c5af73b, type: 3}
+  title: Fortify
+  description: 24 Physical Armor
+  duration: 3
+  damageType: 5
+  isPeriodic: 0
+  skipFirst: 0
+  additiveModifiers:
+  - stat: 2
+    amount: 24
+  percentageModifiers: []

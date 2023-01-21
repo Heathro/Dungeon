@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Oil Dart Ability
+  m_EditorClassIdentifier: 
+  itemID: ebcc433a-8d95-458f-bd34-92b9d3276fda
+  displayName: Oil Dart
+  description: 'Launch oiled arrow
+
+    dealing 11-18  Earth Damage
+
+    to target
+    and cover it with oil'
+  additionalInfo: 'Set Oiled
+
+    (-20% Movement, -15% Fire Resistance)
+
+    Duration
+    2 turns'
+  itemCategory: 10
+  pickup: {fileID: 1591893776558495565, guid: 9a3b2c827e8e08843b4166fe4d762290, type: 3}
+  icon: {fileID: 21300000, guid: d92d8b2548ce4a849b7dc42c5ccc1209, type: 3}
+  weight: 0.3
+  stackable: 1
+  price: 49
+  consumable: 1
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 1
+  damageBase: 10
+  cost: 2
+  cooldown: 6
+  distance: 10.7
+  mustUnsheath: 1
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 1
+  popUpTip: 5
+  targeting: {fileID: 11400000, guid: e1eb1a46878543240970f2f6de531a22, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: c0d3b6f4b0fcba148a0ce8fc2c6b3ec2, type: 2}
+  - {fileID: 11400000, guid: 3a2c678b71e03f345841947b9bb1c30b, type: 2}
+  - {fileID: 11400000, guid: d4a653d89cf6c4345bb2905521485d09, type: 2}
+  delayedEffects:
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 3cea9e1e3a7879043a019614d5da60d7, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: a54a9f8103df38b4fba58876065ad31a, type: 2}
+  - delay: 3.5
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

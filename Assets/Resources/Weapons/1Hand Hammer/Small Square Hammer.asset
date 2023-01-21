@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Small Square Hammer
+  m_EditorClassIdentifier: 
+  itemID: 84f5dc70-c9d1-4152-a974-b57f73edebc1
+  displayName: Small Square Hammer
+  description: 10 Physical Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2481935168585412969, guid: a1bddd7dc984585458b3e352d156c53a, type: 3}
+  icon: {fileID: 21300000, guid: bb76cf7052078e34d84f6a4dd4962b4f, type: 3}
+  weight: 9.1
+  stackable: 0
+  price: 97
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 12
+  equippedPrefab: {fileID: 8000270148695665610, guid: 6588cce6a6bb4e14c8fbe8393efa3ca1, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 10
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

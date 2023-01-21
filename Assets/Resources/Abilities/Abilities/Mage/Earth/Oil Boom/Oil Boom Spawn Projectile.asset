@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cd5a14f39b58409c6885fd9994811, type: 3}
+  m_Name: Oil Boom Spawn Projectile
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 6636072634189105073, guid: 708a698e6c466a1478ab7e32ac809ef1, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: 08d14c09279e7874dbe840d188b4e829, type: 2}
+  - {fileID: 11400000, guid: a89f089bd461fcf4f909abd5210b7dbd, type: 2}
+  - {fileID: 11400000, guid: e8dc084bd9c2ae847b1e9c0f57a310d6, type: 2}

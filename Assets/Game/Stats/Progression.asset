@@ -1,0 +1,1172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df78815e124ac346b46a0f74108c86c, type: 3}
+  m_Name: Progression
+  m_EditorClassIdentifier: 
+  characterClasses:
+  - characterClass: 1
+    stats:
+    - stat: 0
+      levels:
+      - 30
+      - 45
+      - 65
+      - 85
+      - 110
+      - 135
+      - 165
+      - 200
+      - 235
+      - 285
+    - stat: 1
+      levels:
+      - 0
+    - stat: 2
+      levels:
+      - 0
+    - stat: 4
+      levels:
+      - 300
+      - 1000
+      - 1900
+      - 2900
+      - 4000
+      - 5200
+      - 6400
+      - 7900
+      - 9800
+      - 11000
+    - stat: 5
+      levels:
+      - 0
+    - stat: 6
+      levels:
+      - 2.1
+    - stat: 7
+      levels:
+      - 0
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 1
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 0
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 10
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 10
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 0
+    - stat: 19
+      levels:
+      - 0
+    - stat: 20
+      levels:
+      - 0
+    - stat: 21
+      levels:
+      - 0
+    - stat: 22
+      levels:
+      - 0
+    - stat: 23
+      levels:
+      - 0
+  - characterClass: 2
+    stats:
+    - stat: 0
+      levels:
+      - 30
+      - 45
+      - 65
+      - 85
+      - 110
+      - 135
+      - 165
+      - 200
+      - 235
+      - 285
+    - stat: 1
+      levels:
+      - 0
+    - stat: 2
+      levels:
+      - 0
+    - stat: 4
+      levels:
+      - 300
+      - 1000
+      - 1900
+      - 2900
+      - 4000
+      - 5200
+      - 6400
+      - 7900
+      - 9800
+      - 11000
+    - stat: 5
+      levels:
+      - 0
+    - stat: 6
+      levels:
+      - 1.7
+    - stat: 7
+      levels:
+      - 0
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 1
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 0
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 10
+    - stat: 19
+      levels:
+      - 0
+    - stat: 20
+      levels:
+      - 0
+    - stat: 21
+      levels:
+      - 0
+    - stat: 22
+      levels:
+      - 0
+    - stat: 23
+      levels:
+      - 0
+  - characterClass: 3
+    stats:
+    - stat: 0
+      levels:
+      - 30
+      - 45
+      - 65
+      - 85
+      - 110
+      - 135
+      - 165
+      - 200
+      - 235
+      - 285
+    - stat: 1
+      levels:
+      - 0
+    - stat: 2
+      levels:
+      - 0
+    - stat: 4
+      levels:
+      - 300
+      - 1000
+      - 1900
+      - 2900
+      - 4000
+      - 5200
+      - 6400
+      - 7900
+      - 9800
+      - 11000
+    - stat: 5
+      levels:
+      - 0
+    - stat: 6
+      levels:
+      - 2.8
+    - stat: 7
+      levels:
+      - 0
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 1
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 0
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 200
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 5
+    - stat: 19
+      levels:
+      - 0
+    - stat: 20
+      levels:
+      - 0
+    - stat: 21
+      levels:
+      - 0
+    - stat: 22
+      levels:
+      - 0
+    - stat: 23
+      levels:
+      - 0
+  - characterClass: 4
+    stats:
+    - stat: 0
+      levels:
+      - 30
+      - 45
+      - 65
+      - 85
+      - 110
+      - 135
+      - 165
+      - 200
+      - 235
+      - 285
+    - stat: 1
+      levels:
+      - 0
+    - stat: 2
+      levels:
+      - 0
+    - stat: 4
+      levels:
+      - 300
+      - 1000
+      - 1900
+      - 2900
+      - 4000
+      - 5200
+      - 6400
+      - 7900
+      - 9800
+      - 11000
+    - stat: 5
+      levels:
+      - 0
+    - stat: 6
+      levels:
+      - 2.3
+    - stat: 7
+      levels:
+      - 0
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 1
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 0
+    - stat: 12
+      levels:
+      - 10
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 10
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 0
+    - stat: 19
+      levels:
+      - 0
+    - stat: 20
+      levels:
+      - 0
+    - stat: 21
+      levels:
+      - 0
+    - stat: 22
+      levels:
+      - 0
+    - stat: 23
+      levels:
+      - 0
+  - characterClass: 7
+    stats:
+    - stat: 0
+      levels:
+      - 81
+      - 121
+      - 175
+      - 229
+      - 297
+      - 364
+      - 445
+      - 540
+      - 634
+      - 769
+    - stat: 1
+      levels:
+      - 32
+      - 48
+      - 70
+      - 91
+      - 118
+      - 145
+      - 178
+      - 216
+      - 253
+      - 307
+    - stat: 2
+      levels:
+      - 48
+      - 72
+      - 105
+      - 137
+      - 178
+      - 218
+      - 267
+      - 324
+      - 380
+      - 461
+    - stat: 3
+      levels:
+      - 400
+    - stat: 6
+      levels:
+      - 3.1
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 2.1
+    - stat: 9
+      levels:
+      - 1.3
+    - stat: 10
+      levels:
+      - 1
+    - stat: 11
+      levels:
+      - 19
+    - stat: 12
+      levels:
+      - 20
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 20
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - -20
+    - stat: 17
+      levels:
+      - 150
+    - stat: 18
+      levels:
+      - 20
+  - characterClass: 6
+    stats:
+    - stat: 0
+      levels:
+      - 42
+      - 63
+      - 91
+      - 119
+      - 154
+      - 189
+      - 231
+      - 280
+      - 329
+      - 399
+    - stat: 1
+      levels:
+      - 33
+      - 50
+      - 72
+      - 95
+      - 123
+      - 151
+      - 184
+      - 224
+      - 236
+      - 319
+    - stat: 2
+      levels:
+      - 8
+      - 12
+      - 18
+      - 23
+      - 30
+      - 37
+      - 46
+      - 56
+      - 65
+      - 79
+    - stat: 3
+      levels:
+      - 250
+    - stat: 6
+      levels:
+      - 1.8
+    - stat: 7
+      levels:
+      - 30
+    - stat: 8
+      levels:
+      - 1
+    - stat: 9
+      levels:
+      - 1
+    - stat: 10
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 11
+      levels:
+      - 11
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 20
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 20
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 100
+    - stat: 18
+      levels:
+      - 0
+  - characterClass: 5
+    stats:
+    - stat: 0
+      levels:
+      - 63
+      - 94
+      - 136
+      - 178
+      - 231
+      - 283
+      - 346
+      - 420
+      - 493
+      - 598
+    - stat: 1
+      levels:
+      - 12
+      - 18
+      - 27
+      - 35
+      - 46
+      - 56
+      - 69
+      - 84
+      - 98
+      - 119
+    - stat: 2
+      levels:
+      - 25
+      - 37
+      - 54
+      - 71
+      - 92
+      - 113
+      - 138
+      - 168
+      - 197
+      - 239
+    - stat: 3
+      levels:
+      - 200
+    - stat: 6
+      levels:
+      - 2.3
+    - stat: 7
+      levels:
+      - 40
+    - stat: 8
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 9
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 10
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 11
+      levels:
+      - 9
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 10
+  - characterClass: 8
+    stats:
+    - stat: 0
+      levels:
+      - 48
+      - 72
+      - 104
+      - 136
+      - 176
+      - 216
+      - 264
+      - 320
+      - 376
+      - 456
+    - stat: 1
+      levels:
+      - 0
+    - stat: 2
+      levels:
+      - 14
+      - 21
+      - 31
+      - 40
+      - 52
+      - 64
+      - 79
+      - 96
+      - 112
+      - 136
+    - stat: 3
+      levels:
+      - 150
+    - stat: 6
+      levels:
+      - 2.7
+    - stat: 7
+      levels:
+      - 20
+    - stat: 8
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 9
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 10
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 11
+      levels:
+      - 6
+    - stat: 12
+      levels:
+      - 0
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 0
+    - stat: 17
+      levels:
+      - 90
+    - stat: 18
+      levels:
+      - 0
+  - characterClass: 9
+    stats:
+    - stat: 0
+      levels:
+      - 66
+      - 99
+      - 143
+      - 187
+      - 242
+      - 297
+      - 363
+      - 440
+      - 517
+      - 627
+    - stat: 1
+      levels:
+      - 39
+      - 59
+      - 85
+      - 112
+      - 145
+      - 178
+      - 217
+      - 264
+      - 310
+      - 376
+    - stat: 2
+      levels:
+      - 0
+    - stat: 3
+      levels:
+      - 250
+    - stat: 6
+      levels:
+      - 4.1
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 5
+    - stat: 9
+      levels:
+      - 1.7
+    - stat: 10
+      levels:
+      - 5
+    - stat: 11
+      levels:
+      - 14
+    - stat: 12
+      levels:
+      - -20
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 30
+    - stat: 16
+      levels:
+      - 20
+    - stat: 17
+      levels:
+      - 100
+    - stat: 18
+      levels:
+      - 10
+  - characterClass: 10
+    stats:
+    - stat: 0
+      levels:
+      - 72
+      - 108
+      - 156
+      - 204
+      - 264
+      - 324
+      - 396
+      - 480
+      - 564
+      - 684
+    - stat: 1
+      levels:
+      - 50
+      - 75
+      - 109
+      - 142
+      - 184
+      - 226
+      - 277
+      - 336
+      - 394
+      - 478
+    - stat: 2
+      levels:
+      - 0
+    - stat: 3
+      levels:
+      - 350
+    - stat: 6
+      levels:
+      - 3.9
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 6
+    - stat: 9
+      levels:
+      - 1.8
+    - stat: 10
+      levels:
+      - 6
+    - stat: 11
+      levels:
+      - 15
+    - stat: 12
+      levels:
+      - -20
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 40
+    - stat: 16
+      levels:
+      - 10
+    - stat: 17
+      levels:
+      - 100
+    - stat: 18
+      levels:
+      - 10
+  - characterClass: 11
+    stats:
+    - stat: 0
+      levels:
+      - 78
+      - 117
+      - 169
+      - 221
+      - 286
+      - 351
+      - 429
+      - 520
+      - 611
+      - 741
+    - stat: 1
+      levels:
+      - 39
+      - 58
+      - 84
+      - 110
+      - 143
+      - 175
+      - 214
+      - 260
+      - 305
+      - 370
+    - stat: 2
+      levels:
+      - 39
+      - 58
+      - 84
+      - 110
+      - 143
+      - 175
+      - 214
+      - 260
+      - 305
+      - 370
+    - stat: 3
+      levels:
+      - 400
+    - stat: 6
+      levels:
+      - 2.9
+    - stat: 7
+      levels:
+      - 50
+    - stat: 8
+      levels:
+      - 3
+    - stat: 9
+      levels:
+      - 3
+    - stat: 10
+      levels:
+      - 3
+    - stat: 11
+      levels:
+      - 18
+    - stat: 12
+      levels:
+      - -15
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 200
+    - stat: 17
+      levels:
+      - 150
+    - stat: 18
+      levels:
+      - 20
+  - characterClass: 12
+    stats:
+    - stat: 0
+      levels:
+      - 60
+      - 90
+      - 130
+      - 170
+      - 220
+      - 270
+      - 330
+      - 400
+      - 470
+      - 570
+    - stat: 1
+      levels:
+      - 18
+      - 27
+      - 39
+      - 51
+      - 66
+      - 81
+      - 99
+      - 120
+      - 141
+      - 171
+    - stat: 2
+      levels:
+      - 36
+      - 54
+      - 78
+      - 102
+      - 132
+      - 162
+      - 198
+      - 240
+      - 282
+      - 242
+    - stat: 3
+      levels:
+      - 250
+    - stat: 6
+      levels:
+      - 2.1
+    - stat: 7
+      levels:
+      - 40
+    - stat: 8
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 9
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 10
+      levels:
+      - 1.8
+      - 2.1
+      - 2.4
+      - 2.7
+      - 3
+      - 3.3
+      - 3.6
+      - 3.9
+      - 4.2
+      - 4.5
+    - stat: 11
+      levels:
+      - 12
+    - stat: 12
+      levels:
+      - -20
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 200
+    - stat: 17
+      levels:
+      - 100
+    - stat: 18
+      levels:
+      - 5
+  - characterClass: 13
+    stats:
+    - stat: 0
+      levels:
+      - 54
+      - 81
+      - 117
+      - 153
+      - 198
+      - 243
+      - 297
+      - 360
+      - 423
+      - 513
+    - stat: 1
+      levels:
+      - 10
+      - 16
+      - 23
+      - 30
+      - 39
+      - 48
+      - 59
+      - 72
+      - 84
+      - 102
+    - stat: 2
+      levels:
+      - 0
+    - stat: 3
+      levels:
+      - 200
+    - stat: 6
+      levels:
+      - 1.9
+    - stat: 7
+      levels:
+      - 30
+    - stat: 8
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 9
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 10
+      levels:
+      - 1.2
+      - 1.4
+      - 1.6
+      - 1.8
+      - 2
+      - 2.2
+      - 2.4
+      - 2.6
+      - 2.8
+      - 3
+    - stat: 11
+      levels:
+      - 8
+    - stat: 12
+      levels:
+      - -25
+    - stat: 13
+      levels:
+      - 0
+    - stat: 14
+      levels:
+      - 0
+    - stat: 15
+      levels:
+      - 0
+    - stat: 16
+      levels:
+      - 200
+    - stat: 17
+      levels:
+      - 95
+    - stat: 18
+      levels:
+      - 0

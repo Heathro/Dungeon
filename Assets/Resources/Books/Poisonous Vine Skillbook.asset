@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Poisonous Vine Skillbook
+  m_EditorClassIdentifier: 
+  itemID: cccaeedc-430b-43f0-b092-787241e7334d
+  displayName: Poisonous Vine  Skillbook
+  description: 'Teaches skill:'
+  additionalInfo: 
+  itemCategory: 7
+  pickup: {fileID: 5316660628490847431, guid: 48ba16be82438da4984ce8332c63b85b, type: 3}
+  icon: {fileID: 21300000, guid: 10e6f4b6e13202941b3ee2cae699ee89, type: 3}
+  weight: 0.8
+  stackable: 1
+  price: 466
+  consumable: 1
+  skill: {fileID: 11400000, guid: 68835d8d475d1e246ab256873946d5fd, type: 2}
+  skillClass: 3
+  isScaleable: 0
+  damageBase: 10
+  cost: 1
+  cooldown: 4
+  distance: 0
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 12
+  targeting: {fileID: 11400000, guid: b779d35dee15e954f8d6c8f2f9d43fa3, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters: []
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: 181270beacc3c924bb3703fa8d975de4, type: 2}
+  - {fileID: 11400000, guid: 3a9b0c6a3fe700f419fe3f45531882fc, type: 2}
+  - {fileID: 11400000, guid: d2c6def9052139a4588a6a881343b829, type: 2}
+  delayedEffects:
+  - delay: 2
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

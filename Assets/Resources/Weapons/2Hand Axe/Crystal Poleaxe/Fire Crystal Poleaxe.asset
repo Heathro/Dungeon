@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Fire Crystal Poleaxe
+  m_EditorClassIdentifier: 
+  itemID: ce0614c5-170a-4f1a-9272-cb7e33a409dd
+  displayName: Fire Crystal Poleaxe
+  description: 14 Fire Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: 57c0edaece2ae784b8dc3e96da6138c1, type: 3}
+  icon: {fileID: 21300000, guid: 83bb767a205e92946972d7dd7c250345, type: 3}
+  weight: 7
+  stackable: 0
+  price: 186
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 2
+  equippedPrefab: {fileID: 8000270148695665610, guid: 70d14d09a023fd04781de5e717120145, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 14
+  damageType: 3
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: 591216d15aee0b040a9cddd7a7453e52, type: 3}
+  projectileType: 0

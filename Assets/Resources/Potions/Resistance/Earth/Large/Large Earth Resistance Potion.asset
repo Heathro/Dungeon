@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Large Earth Resistance Potion
+  m_EditorClassIdentifier: 
+  itemID: a5a378d3-89bb-4ca6-8a3b-017a4a3134bc
+  displayName: Large Earth Resistance Potion
+  description: 60% Fire Resistance
+  additionalInfo: Duration 2 turns
+  itemCategory: 6
+  pickup: {fileID: 292516055178084459, guid: 2aa9194ab77298640991b40df7ca99ad, type: 3}
+  icon: {fileID: 21300000, guid: 526a57d04b8f1e4418f258381faf1633, type: 3}
+  weight: 0.1
+  stackable: 1
+  price: 36
+  consumable: 1
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 0
+  damageBase: 10
+  cost: 1
+  cooldown: 2
+  distance: 0
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 12
+  targeting: {fileID: 11400000, guid: b779d35dee15e954f8d6c8f2f9d43fa3, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters: []
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: 181270beacc3c924bb3703fa8d975de4, type: 2}
+  - {fileID: 11400000, guid: 139539f0d698b8446a21a54219d5210d, type: 2}
+  - {fileID: 11400000, guid: f818a372fe53f5b409f1c7281acb9854, type: 2}
+  delayedEffects:
+  - delay: 2
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

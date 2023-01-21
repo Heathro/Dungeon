@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cd5a14f39b58409c6885fd9994811, type: 3}
+  m_Name: Ball Lightning Spawn Projectile
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 6636072634189105073, guid: 4454b5283bd42044ea35bf7d034ecc89, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: ff25c6c8c15f7b748bfc3b4293f720b9, type: 2}
+  - {fileID: 11400000, guid: 537c2ec9f6c25cc48bcbf8f3fab19de0, type: 2}
+  - {fileID: 11400000, guid: 45fa89054f5bf31408fbfa7e74e8ff48, type: 2}

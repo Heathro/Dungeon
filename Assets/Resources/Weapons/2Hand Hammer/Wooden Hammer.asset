@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Wooden Hammer
+  m_EditorClassIdentifier: 
+  itemID: 02dc2898-0272-41ae-ae47-d9f0b6dbe5c2
+  displayName: Wooden Hammer
+  description: 9 Physical Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 1579975792740153417, guid: 82356b1d7046fbd46a43db8c5646649d, type: 3}
+  icon: {fileID: 21300000, guid: 638a240557aaebe459ef3cec8994b1ae, type: 3}
+  weight: 8
+  stackable: 0
+  price: 39
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 8
+  equippedPrefab: {fileID: 9119017373085460308, guid: 262b7d267561a5e4cb76946aff0bc2b6, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 9
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

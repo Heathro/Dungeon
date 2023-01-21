@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24a14190ab19fd46bf4522769fcb9cd, type: 3}
+  m_Name: Burning Anger Spawn Fireball
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7695432143176699424, guid: 476facb58fb3caa4ea648f134d3ed487, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: e82a50e04701fac46abd9cce9c7cbff1, type: 2}
+  - {fileID: 11400000, guid: 323b81fc0004aca47a94a42d81aec539, type: 2}
+  - {fileID: 11400000, guid: 49c52a1a0d197e84a861c7f537ad816c, type: 2}
+  - {fileID: 11400000, guid: 7f8d7221d0df0fd4aaa5d5ec30606c9a, type: 2}
+  - {fileID: 11400000, guid: ca9c1e43c09a6564eaa3a5b9765ab24f, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Physical Necklace
+  m_EditorClassIdentifier: 
+  itemID: e6eb195e-3a40-4316-b98c-7bcadfc10753
+  displayName: Small Physical Necklace
+  description: +18 Physical Armor
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: 043ee7afc721c7941b60f00c75ccf18b, type: 3}
+  icon: {fileID: 21300000, guid: 3cca3fc64f3c7944fae936e72013fd34, type: 3}
+  weight: 0.7
+  stackable: 0
+  price: 21
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 2
+    amount: 18
+  percentageModifiers: []

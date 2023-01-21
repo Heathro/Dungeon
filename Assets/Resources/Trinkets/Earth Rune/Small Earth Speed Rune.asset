@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Earth Speed Rune
+  m_EditorClassIdentifier: 
+  itemID: 829a4e49-8c05-461f-a16b-0e3e91748420
+  displayName: Small Earth Speed Rune
+  description: '+5% Earth Resistance
+
+    +3% Movement'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: b552558869a6a87489f90e295664654d, type: 3}
+  icon: {fileID: 21300000, guid: df274513b7ae94f499aada0e86216c4c, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 50
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 14
+    amount: 5
+  percentageModifiers:
+  - stat: 6
+    amount: 3

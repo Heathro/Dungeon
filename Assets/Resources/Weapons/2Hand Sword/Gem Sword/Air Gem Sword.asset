@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Air Gem Sword
+  m_EditorClassIdentifier: 
+  itemID: 817073a5-fbfb-450d-9179-9e518f990a73
+  displayName: Air Gem Sword
+  description: '13 Physical Damage
+
+    +12% Air Resistance'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 2657661292419280808, guid: 3bcf30695568c154fb37d5dde2a568b1, type: 3}
+  icon: {fileID: 21300000, guid: dba759f2221102043b1e4d3d62574b56, type: 3}
+  weight: 8.4
+  stackable: 0
+  price: 297
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 15
+    amount: 12
+  percentageModifiers: []
+  weaponType: 7
+  equippedPrefab: {fileID: -7601804713655604923, guid: 5ea2df92cf204ce4db23db149c124051, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 13
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

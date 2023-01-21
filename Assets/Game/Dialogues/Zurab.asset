@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9148847479534946477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: c28cb877-67f6-4b4e-a9c0-4cb4f89d7087
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: You are a troll! I'll kill you!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 387
+    y: 359
+    width: 200
+    height: 100
+  onSelectAction: StartFight
+  condition:
+    and: []
+--- !u!114 &-8298086726363542982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: 99bc7d74-063f-4723-b05c-50e051355564
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I was expelled from the clan. But I couldn't leave the dungeon. I stay here
+    to trade with travelers.
+  children:
+  - d9d17277-203d-4e0e-b242-03ac37acb461
+  rect:
+    serializedVersion: 2
+    x: 518
+    y: 14
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23f23ec893415545be824b5fa73b0de, type: 3}
+  m_Name: Zurab
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 832441788199423834}
+  - {fileID: 7128731504684458252}
+  - {fileID: -8298086726363542982}
+  - {fileID: 612386579622885680}
+  - {fileID: -9148847479534946477}
+--- !u!114 &612386579622885680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: d9d17277-203d-4e0e-b242-03ac37acb461
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Show me what you got.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 753
+    y: 169
+    width: 200
+    height: 100
+  onSelectAction: StartShop
+  condition:
+    and: []
+--- !u!114 &832441788199423834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: dc6b7494-0ce9-492f-a10e-8d13b19cc5a0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hello, Adventurer!
+  children:
+  - c95d354d-bdfb-4b62-a63a-f9f174b188f9
+  - d9d17277-203d-4e0e-b242-03ac37acb461
+  - c28cb877-67f6-4b4e-a9c0-4cb4f89d7087
+  rect:
+    serializedVersion: 2
+    x: 12
+    y: 213
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []
+--- !u!114 &7128731504684458252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56727b0108191ef4b90f2a0abcc5f9c4, type: 3}
+  m_Name: c95d354d-bdfb-4b62-a63a-f9f174b188f9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you?
+  children:
+  - 99bc7d74-063f-4723-b05c-50e051355564
+  rect:
+    serializedVersion: 2
+    x: 277
+    y: 105
+    width: 200
+    height: 100
+  onSelectAction: 
+  condition:
+    and: []

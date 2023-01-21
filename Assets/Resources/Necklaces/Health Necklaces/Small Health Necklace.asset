@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Small Health Necklace
+  m_EditorClassIdentifier: 
+  itemID: 4da0ab88-a105-4993-b4cf-b7db0c80eb91
+  displayName: Small Health Necklace
+  description: +18 Health Points
+  itemCategory: 3
+  pickup: {fileID: 8901221375725530951, guid: abb734fadd88de542bc72e8bec91306f, type: 3}
+  icon: {fileID: 21300000, guid: 20c1fef926a2f084890f5652aa6d893b, type: 3}
+  weight: 0.7
+  stackable: 0
+  price: 21
+  allowedEquipLocation: 1
+  additiveModifiers:
+  - stat: 0
+    amount: 18
+  percentageModifiers: []

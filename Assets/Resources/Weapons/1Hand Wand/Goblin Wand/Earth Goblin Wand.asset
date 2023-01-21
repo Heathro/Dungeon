@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Earth Goblin Wand
+  m_EditorClassIdentifier: 
+  itemID: 11655d86-53c5-4e5c-aa46-cc7c5a30d8f8
+  displayName: Earth Goblin Wand
+  description: 12 Earth Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 4447683191122425699, guid: 861bf52400634de458b40da4bae7aab3, type: 3}
+  icon: {fileID: 21300000, guid: 82974fbbb7a68bb42bcf3c83f016ef2a, type: 3}
+  weight: 1.2
+  stackable: 0
+  price: 99
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 15
+  equippedPrefab: {fileID: 8000270148695665610, guid: 3dd3142a6261629459a82f41e8972440, type: 3}
+  isRightHanded: 1
+  isMelee: 0
+  isRanged: 0
+  weaponRange: 10.9
+  weaponDamage: 12
+  damageType: 5
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: f3a7372ab2775d548a4750a47b7d53b7, type: 3}
+  projectileType: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Stone Hammer
+  m_EditorClassIdentifier: 
+  itemID: f21e1f9a-a2f7-45de-9f52-47858154b31b
+  displayName: Stone Hammer
+  description: '10 Physical Damage
+
+    -1% Movement'
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 3772532526816308299, guid: 6a57cf59650b1bd41b857f9ae70ecc0a, type: 3}
+  icon: {fileID: 21300000, guid: f3ae0c7401b538f49ae2098c2c17f974, type: 3}
+  weight: 10.9
+  stackable: 0
+  price: 68
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers:
+  - stat: 6
+    amount: -1
+  weaponType: 8
+  equippedPrefab: {fileID: 9119017373085460308, guid: 703def1cbee59cf42844afb7d318e1f3, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 10
+  damageType: 1
+  damageBase: 8
+  attackCost: 2
+  projectilePrefab: {fileID: 0}
+  projectileType: 0

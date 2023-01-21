@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3432f997f8fe06141ba9011435b2d1aa, type: 3}
+  m_Name: Stun Shot Spawn Projectile
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 4367235404524909440, guid: 8b3fa0a0fd3dbf74da092e8f33e4608b, type: 3}
+  boltPrefab: {fileID: 4367235404524909440, guid: 4b5c56a7cef44c546bfb91ad0380eb09, type: 3}
+  impactEffects:
+  - {fileID: 11400000, guid: 73b38d2ae7dad1f4687d08790cac08a8, type: 2}
+  - {fileID: 11400000, guid: 5b2269e7b5c6da247b9d005638933a06, type: 2}
+  - {fileID: 11400000, guid: d0313b9398863e84780fc8cb1cb0fe19, type: 2}
+  - {fileID: 11400000, guid: 784b6aad9eb0d204a942ed1996d638fe, type: 2}

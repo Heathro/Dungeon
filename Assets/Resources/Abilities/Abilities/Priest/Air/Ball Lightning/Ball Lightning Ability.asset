@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Ball Lightning Ability
+  m_EditorClassIdentifier: 
+  itemID: 95c24115-3efd-44a2-9898-e8fa32a85e43
+  displayName: Ball Lightning
+  description: 'Launch ball Lightning
+
+    dealing 12-20 Air Damage'
+  additionalInfo: 'Set Shocked (-15% Water Resistance)
+
+    Duration 2 turns'
+  itemCategory: 5
+  pickup: {fileID: 2721224917630891909, guid: bf567cf0893d52846bd6a06b7c87e574, type: 3}
+  icon: {fileID: 21300000, guid: 9af940c57e2c1ba4c8ec0d8a546f966a, type: 3}
+  weight: 0
+  stackable: 0
+  price: 0
+  consumable: 0
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 1
+  damageBase: 10
+  cost: 2
+  cooldown: 7
+  distance: 9.8
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 6
+  targeting: {fileID: 11400000, guid: aa878aa7fb85f0e4498a0335b25b152c, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: c0d3b6f4b0fcba148a0ce8fc2c6b3ec2, type: 2}
+  - {fileID: 11400000, guid: fe88520f4355c6a47a0bc0130b379d41, type: 2}
+  - {fileID: 11400000, guid: d4a653d89cf6c4345bb2905521485d09, type: 2}
+  delayedEffects:
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 2054fb0e0ebeef54e8e7d876507dfeff, type: 2}
+  - delay: 0.35
+    effect: {fileID: 11400000, guid: 07ab6a5e8121ccb488383ecc0ba6477b, type: 2}
+  - delay: 3.5
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}

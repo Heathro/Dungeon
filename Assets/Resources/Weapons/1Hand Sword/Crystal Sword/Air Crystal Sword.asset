@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39390cabbe68f1c4aa6811071862117c, type: 3}
+  m_Name: Air Crystal Sword
+  m_EditorClassIdentifier: 
+  itemID: 80637fef-153a-4554-ad59-39456c4b691c
+  displayName: Air Crystal Sword
+  description: 12 Air Damage
+  additionalInfo: 
+  itemCategory: 1
+  pickup: {fileID: 7549044153351190182, guid: 7e97deae5bceee14da88053111a977e6, type: 3}
+  icon: {fileID: 21300000, guid: f2e0980951023c9428b1d70cea7ea045, type: 3}
+  weight: 4.9
+  stackable: 0
+  price: 188
+  allowedEquipLocation: 0
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponType: 14
+  equippedPrefab: {fileID: 8000270148695665610, guid: b0e5dc70d362a4a41b786067c36a99f4, type: 3}
+  isRightHanded: 1
+  isMelee: 1
+  isRanged: 0
+  weaponRange: 2
+  weaponDamage: 12
+  damageType: 6
+  damageBase: 10
+  attackCost: 2
+  projectilePrefab: {fileID: 8310357042898037990, guid: d02b5473ec5af844f8a3f6dd6e0e3ab7, type: 3}
+  projectileType: 0

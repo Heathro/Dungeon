@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Simple Health Ring
+  m_EditorClassIdentifier: 
+  itemID: 2f8e6437-2c66-401d-bba8-b2e2bfd67c1c
+  displayName: Simple Health Ring
+  description: +13 Health Points
+  itemCategory: 4
+  pickup: {fileID: 726922827839185706, guid: 455689b206631b849a99db39d106def7, type: 3}
+  icon: {fileID: 21300000, guid: 36a5fc1f66ea4534c808e8f28387524a, type: 3}
+  weight: 0.05
+  stackable: 0
+  price: 17
+  allowedEquipLocation: 3
+  additiveModifiers:
+  - stat: 0
+    amount: 13
+  percentageModifiers: []

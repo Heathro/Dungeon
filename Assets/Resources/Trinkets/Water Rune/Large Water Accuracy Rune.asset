@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Large Water Accuracy Rune
+  m_EditorClassIdentifier: 
+  itemID: eedc8fe8-e437-4992-93ae-d59198047a67
+  displayName: Large Water Accuracy Rune
+  description: '+10% Water Resistance
+
+    +6% Accuracy'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: 8e2b87a9b73714c499c6811b32f68a83, type: 3}
+  icon: {fileID: 21300000, guid: 27eabe19b7dba6649b675eeb0dc155fc, type: 3}
+  weight: 0.1
+  stackable: 0
+  price: 100
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 13
+    amount: 10
+  - stat: 17
+    amount: 6
+  percentageModifiers: []

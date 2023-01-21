@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20eb1792e8048a46bf5c7c520a3ea3b, type: 3}
+  m_Name: Large Poison Speed Rune
+  m_EditorClassIdentifier: 
+  itemID: 02ce92d8-f86b-4cb4-ab49-045cb928d5e0
+  displayName: Large Poison Speed Rune
+  description: '+10% Poison Resistance
+
+    +6% Movement'
+  itemCategory: 2
+  pickup: {fileID: 6821949057309543306, guid: b16f398a97a710943bc8e8d53b20d927, type: 3}
+  icon: {fileID: 21300000, guid: e36566b48f3fefa48bf6efacbf45a85d, type: 3}
+  weight: 0.1
+  stackable: 0
+  price: 100
+  allowedEquipLocation: 2
+  additiveModifiers:
+  - stat: 16
+    amount: 10
+  percentageModifiers:
+  - stat: 6
+    amount: 6

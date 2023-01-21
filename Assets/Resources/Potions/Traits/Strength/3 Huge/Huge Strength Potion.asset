@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245d200367efad14a9e6470137fb774e, type: 3}
+  m_Name: Huge Strength Potion
+  m_EditorClassIdentifier: 
+  itemID: 46b07a17-14ed-4668-b47f-0cb027f8e75e
+  displayName: Huge Strength Potion
+  description: 6 Strength
+  additionalInfo: Duration 3 turns
+  itemCategory: 6
+  pickup: {fileID: 292516055178084459, guid: 574011d0b9c93264a86d15bbcb9bf63f, type: 3}
+  icon: {fileID: 21300000, guid: 323ee418421aac94b80c33f176c61976, type: 3}
+  weight: 0.1
+  stackable: 1
+  price: 48
+  consumable: 1
+  skill: {fileID: 0}
+  skillClass: 0
+  isScaleable: 0
+  damageBase: 10
+  cost: 1
+  cooldown: 3
+  distance: 0
+  mustUnsheath: 0
+  requiresMeleeWeapon: 0
+  requiresRangedWeapon: 0
+  popUpTip: 12
+  targeting: {fileID: 11400000, guid: b779d35dee15e954f8d6c8f2f9d43fa3, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 1ccfa3ebdc924c3449d80fb879708ced, type: 2}
+  alternativeFilters: []
+  targetingEffects: []
+  afterUseEffects:
+  - {fileID: 11400000, guid: 181270beacc3c924bb3703fa8d975de4, type: 2}
+  - {fileID: 11400000, guid: 7a3028b588a65d14c8dbb5202f88ebf2, type: 2}
+  - {fileID: 11400000, guid: f818a372fe53f5b409f1c7281acb9854, type: 2}
+  delayedEffects:
+  - delay: 2
+    effect: {fileID: 11400000, guid: 640c5705017610047856041b314894fd, type: 2}
